@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>scala.collection.Seq$</OriginalElement>
+  <nodes>
+    <node x="0.0" y="75.0">scala.collection.Seq$</node>
+    <node x="0.0" y="0.0">scala.collection.generic.SeqFactory</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="56.0" y="52.5" />
+  <SelectedNodes>
+    <node>scala.collection.generic.SeqFactory</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
