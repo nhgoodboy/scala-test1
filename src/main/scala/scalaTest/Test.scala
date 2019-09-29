@@ -7,9 +7,10 @@ class Test {
     val b = 10
     val a = 1
     val c = 2
-  val dd = "dd"
-  val zz = "zz"
   val ee = "ee"
+  val dd = "dd"
+  val ff = "ff"
+  val zz = "zz"
 }
 
 class Test1 extends Test {
