@@ -7,6 +7,7 @@ class Test {
     val b = 10
     val a = 1
     val c = 2
+  val ee = "ee"
 }
 
 class Test1 extends Test {
