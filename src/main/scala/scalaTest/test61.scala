@@ -18,6 +18,7 @@ object test61 extends App {
 
   println((new test61_f).a)
   println((new test61_s).a)
+  println((new test61_s).a)
 
   var fruits = ArrayBuffer("apple")
 
