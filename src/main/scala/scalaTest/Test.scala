@@ -8,6 +8,7 @@ class Test {
     val a = 1
     val c = 2
   val dd = "dd"
+  val zz = "zz"
 }
 
 class Test1 extends Test {
