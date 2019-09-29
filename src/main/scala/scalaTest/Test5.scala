@@ -7,6 +7,7 @@ import scala.collection.mutable
 class Test5(val a: String, val b: String) {
 
   private val c = "asd"
+  private var d = "asdf"
 
   def getA(): String = {
     a
