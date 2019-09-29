@@ -22,6 +22,7 @@ object test6_6 {
   def main(args: Array[String]): Unit = {
     val cal = Calendar.getInstance()
     cal.setTime(new Date)
+    val ccd = "ccd"
     val array = Array(7,1,2,3,4,5,6)
     println(array(cal.get(Calendar.DAY_OF_WEEK) - 1))
 
