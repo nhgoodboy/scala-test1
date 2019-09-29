@@ -6,6 +6,7 @@ package scalaTest
 class Test {
     val b = 10
     val a = 1
+    val c = 2
 }
 
 class Test1 extends Test {
