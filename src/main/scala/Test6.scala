@@ -1,4 +1,7 @@
 import java.util
+import java.util.Date
+
+import akka.actor.FSM.->
 
 import scala.collection.immutable.Queue
 import scala.collection.mutable.{ArrayBuffer, ListBuffer}
@@ -14,7 +17,15 @@ object Test6 {
 
 
   def main(args: Array[String]): Unit = {
-    println(Test5.ccd)
+    var map1 = Map.empty[Int,(Long,Int)]
+    map1 += 1 -> (1,2)
+    map1 += 2 -> (2,3)
+    println(map1.map(p => (p._1, p._2._1, p._2._2)))
+
+    println(System.currentTimeMillis())
+    println(new Date().getTime)
+    Array.fill(6){false}.foreach(println)
+
 
     val seq: Seq[Int] = Seq(1, 2, 3, 4, 5)
     var list = ListBuffer(1, 2, 3, 4)
