@@ -8,6 +8,6 @@ package scalaTest
 object Test123 {
 
   def main(args: Array[String]): Unit = {
-
+    println(this.getClass.getName)
   }
 }
